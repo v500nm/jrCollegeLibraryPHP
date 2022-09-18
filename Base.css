@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px brown;
+    text-align: center;
+    
+}
+.background {
+    background-image: url(maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-attachment: fixed;
+    height: 2000px;
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 9000px;
+    width: 90%;
+}
+.write {
+    padding: 18px;
+    border: 10px solid black;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+}
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px;
+    border: 1px lightgray;
+    border-radius: 5px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: gray;
+    -webkit-box-shadow: 0px 4px 9px 1px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px 4px 9px 1px rgba(0,0,0,0.76);
+box-shadow: 0px 4px 9px 1px rgba(0,0,0,0.76);
+  }
+  
+  .logo1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+  
+  .nav-links1 {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  }
+  
+  .nav-links1 li {
+    list-style: none;
+  }
+  .nav-links1 a {
+    color: antiquewhite;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .burger1 div {
+    width: 25px;
+    height: 3px;
+    background-color: aliceblue;
+    margin: 5px;
+  }
+  
+  .burger1 {
+    display: none;
+    cursor: pointer;
+  }
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+input[type="address"],
+input[type="password"],
+select,
+textarea{
+    width: 95%;
+    padding: 12px;
+    border: 1px #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+.main_heading{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: #4da;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: lightgreen;
+}
